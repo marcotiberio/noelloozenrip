@@ -1,0 +1,28 @@
+html {
+	background-color: black;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+body {
+  display: auto;
+  align-items: left;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  direction:rtl;
+  overflow-x: auto;
+  overflow-y: hidden !important;
+  margin: 0;
+  padding: 0;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
